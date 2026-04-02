@@ -1,0 +1,29 @@
+/* Additional global styles beyond index.css */
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+table th:hover {
+  background-color: #e9ecef;
+}
+
+@media (max-width: 768px) {
+  th, td {
+    padding: 8px 10px;
+    font-size: 0.8rem;
+  }
+  .container {
+    padding: 10px;
+  }
+  .filters {
+    flex-direction: column;
+  }
+}
