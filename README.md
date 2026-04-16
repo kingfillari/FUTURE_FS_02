@@ -43,7 +43,7 @@ It manages client leads from contact forms with secure admin access, lead status
 - **Auto‑seeding** of demo admin user and sample leads on first run
 
 ---
-
+```
 ## 🗂️ Project Structure
 FUTURE_FS_02/
 ├── backend/
@@ -78,7 +78,7 @@ FUTURE_FS_02/
 │ ├── package.json
 │ └── README.md (optional)
 └── README.md (this file)
-
+```
 text
 
 ---
